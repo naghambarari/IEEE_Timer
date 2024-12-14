@@ -1,0 +1,11 @@
+/* FILE: styles/BurgerMenu.module.css */
+.menu {
+    overflow: hidden; /* Hide scrollbar */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .menu::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+  }
